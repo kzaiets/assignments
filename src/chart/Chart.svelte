@@ -13,7 +13,7 @@
     // Parse month strings (e.g., "2024-11") into valid Date objects
     const parseMonth = d3.timeParse("%Y-%m"); // Parses "2024-11" into a Date object
     const monthFormatter = d3.timeFormat("%b"); // Formats Date objects into "Jan", "Feb", etc.
-    let position_bar = width < 1000 ? 4.5 : 3
+    let position_bar = width < 1000 ? 4.5 : 2.5
     
     // Format the data for scales and sorting
     $: processedData = [...data]
