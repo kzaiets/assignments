@@ -9,5 +9,5 @@ npm install
 ## Then, to run the local development server, execute:
 
 ```bash
-npm install
+npm start
 ```
